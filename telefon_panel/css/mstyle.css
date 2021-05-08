@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body{
+    background-color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    color: #212529;
+}
+.menu{
+    background-color: #f8f8f8;
+    padding-top: 0px;
+    color: #252830;
+    border-top:0.5px solid #222121;
+    border-bottom:0.5px solid #d1d1d1;
+    position:fixed;
+    z-index: 1;
+    width: 100%;
+    top:0px; left:0px; right:0px;
+}
+.menu li{
+    color: #252830;
+}
+
+li{
+    float:left;
+}
+a{
+    text-decoration: none;
+  
+}
+
+li a {
+    display: block;
+
+    padding:5px 60px;
+
+    background-color: #f8f8f8;
+
+    color:#616368;
+
+    text-decoration:none; 
+}
+ul li:hover{
+    border-bottom:0.5px solid #222121;
+}
+li a:hover{
+    color: #252830;
+}
+
+ul {
+    list-style-type: none;
+
+    margin: 1.5% 10%;
+
+    padding: 0;
+    
+    overflow: hidden;
+}
+
+.dropdown {
+    position: absolute;
+    display: inline-block;
+    z-index: 1;
+    margin: 1px 1px;
+  }
+.dropdown li{
+    float:none;
+}
+.dropdown-child a{
+    display: none;
+    background-color: #f8f8f8;
+    min-width: 200px;
+}
+.dropdown-child a {
+    color: #616368;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+
+.dropdown-child a:hover{
+    margin-left: 2px;
+    color: #222121;
+    background-color: #ebebeb;
+
+}
+
+.content{
+    margin-top: 50px;
+}
+.card-header{
+    background-color: white;
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    /* border: 1px solid rgba(0,0,0,.125); */
+    border-radius: .25rem;
+    width: 250px;
+    height: 100%;
+    margin: 1px 1px;
+    border: white;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #747b88;
+}
+
+
+@keyframes moving{
+    0%{
+        margin-left: 3px;
+    }
+}
+.siparis{
+    margin-top: 20px;
+}
+.sepet{
+    color: white;
+    text-align: right;
+    display: block;
+    margin-right: 10px;
+}
+
+
+.sabit{
+    position:fixed;
+}
+.sirala-menu{
+    border-right: 1.5px solid rgb(43 42 42 / 23%);
+}
+
+p{
+
+    margin: 2px;
+
+}
